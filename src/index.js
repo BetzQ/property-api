@@ -6,7 +6,7 @@ const updateProductRouter = require("./product/update-product");
 const deleteProductRouter = require("./product/delete-product");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
 
